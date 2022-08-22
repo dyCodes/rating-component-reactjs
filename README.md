@@ -6,6 +6,12 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ![](./public/screenshot.png)
 
+### Built with
+
+- React - JS library
+- Tailwind CSS - JS library
+- CSS custom properties
+
 ### The challenge
 
 Users should be able to:
@@ -13,10 +19,3 @@ Users should be able to:
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- CSS Grid
-- React - JS library
