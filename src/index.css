@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+body {
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  background: hsl(216, 12%, 8%);
+}
+.card {
+  @apply container rounded-3xl mx-auto max-w-sm px-5 py-8 md:p-8;
+  background: linear-gradient(198deg, hsl(213, 19%, 18%), hsl(213, 14%, 12%));
+}
+.btn {
+  @apply text-gray-light bg-darkblue rounded-full hover:bg-primary hover:text-white focus:bg-gray-medium focus:text-white;
+  height: 46px;
+  width: 46px;
+  font-size: 16px;
+}
+.submit {
+  @apply w-full bg-primary text-center text-white uppercase rounded-full hover:bg-white hover:text-primary;
+  height: 40px;
+  padding-top: 2px;
+  letter-spacing: 2px;
 }
